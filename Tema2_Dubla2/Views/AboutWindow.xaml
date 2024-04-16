@@ -1,0 +1,20 @@
+﻿<Window x:Class="Tema2_Dubla2.Views.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_Dubla2.Views"
+        mc:Ignorable="d"
+        Title="AboutWindow" Height="300" Width="515">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Game Description:" FontWeight="Bold" Margin="50,20,100,5"/>
+            <TextBlock Height="106" Width="358" TextWrapping="Wrap"  Text="
+    Checkers is a two-player board game played on an 8x8 grid. Players move their pieces diagonally forward, aiming to capture their opponent's pieces by jumping over them.The game ends when one player captures all of the opponent's pieces or blocks them from making any legal moves. It's a strategic game that's easy to learn but offers depth and challenge."/>
+            <TextBlock Text="Credits:" FontWeight="Bold" Margin="50,0,100,5"/>
+            <TextBlock Text="Vulpoiu Petru Razvan" Margin="45,0,100,5"/>
+            <TextBlock Text="Group:10LF224" Margin="45,0,100,5"/>
+            <TextBlock Text="petru.vulpoiu@student.unitbv.ro" Margin="45,0,100,5"/>
+        </StackPanel>
+    </Grid>
+</Window>

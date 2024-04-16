@@ -1,0 +1,4 @@
+Red Winners: 15
+White Winners: 8
+Max Red Pieces Remaining: 9
+Max White Pieces Remaining: 9
